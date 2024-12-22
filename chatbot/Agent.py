@@ -4,7 +4,7 @@ from crewai import Agent, Task, Process, Crew
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 def key():
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBvdWxv0Qde5iHOuJoDVpaDvjjv1uhcykU"
+    os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=key(), temperature=True, verbose=True)
 
