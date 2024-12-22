@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 def key():
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBvdWxv0Qde5iHOuJoDVpaDvjjv1uhcykU"
+    os.environ["GOOGLE_API_KEY"] = ""
 
 st.title("Basic Chatbot Prototype.")
 que = st.text_input("Please ask any question.")
