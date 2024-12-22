@@ -6,7 +6,7 @@ from langchain.chains.sequential import SequentialChain
 from langchain.chains.llm import LLMChain
 
 def key():
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBvdWxv0Qde5iHOuJoDVpaDvjjv1uhcykU"
+    os.environ["GOOGLE_API_KEY"] = ""
 
 st.title("Demo Chatbot")
 que = st.text_input("Ask Any Thing ... ")
